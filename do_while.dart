@@ -3,5 +3,6 @@ void main() {
   do {
     print(i);
     i++;
-  } while (i <=10);
+  } 
+  while (i <=10);
 }
