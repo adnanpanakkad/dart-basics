@@ -11,11 +11,13 @@ class Car {
   var color;
   var price;
 
-  Car(model, color, price) {
-    this.model=model;
-    this.color=color;
-    this.price=price;
-  }
+  // Car(model, color, price) {
+  //   this.model = model;
+  //   this.color = color;
+  //   this.price = price;
+  // }
+  Car(this.color, this.model, this.price);
+  
   void carDetails() {
     print("model:${model}");
     print("color:${color}");
